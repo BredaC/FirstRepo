@@ -18,7 +18,7 @@ void loop() {
    // print out the value you read:
   Serial.println(knobValue2);
    
-  if(knobValue>500)
+  if(knobValue>500&&knobValue<700)
   {digitalWrite(LED, HIGH);}
   else{digitalWrite(LED, LOW);}
 
